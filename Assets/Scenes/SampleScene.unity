@@ -1152,6 +1152,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -9195807641641327649, guid: 1dbd515601e1621448c0bab50af49fe6,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 01ad05ec6f9d2dc41a2053ee88d2335d, type: 2}
+    - target: {fileID: -8376806037048597732, guid: 1dbd515601e1621448c0bab50af49fe6,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5079da2e6873562458b5af5aab0c2a0c, type: 2}
     - target: {fileID: -4216859302048453862, guid: 1dbd515601e1621448c0bab50af49fe6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1207,10 +1217,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -4087481368310426503, guid: 1dbd515601e1621448c0bab50af49fe6,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 919020bc289835c46bd5aec25d6c2665, type: 2}
     - target: {fileID: -927199367670048503, guid: 1dbd515601e1621448c0bab50af49fe6,
         type: 3}
       propertyPath: m_Name
       value: museum
       objectReference: {fileID: 0}
+    - target: {fileID: 8028123591408238654, guid: 1dbd515601e1621448c0bab50af49fe6,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c23d6fc8d1926ea4a8056c858bb73f02, type: 2}
+    - target: {fileID: 8835954295408595638, guid: 1dbd515601e1621448c0bab50af49fe6,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 919020bc289835c46bd5aec25d6c2665, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1dbd515601e1621448c0bab50af49fe6, type: 3}
