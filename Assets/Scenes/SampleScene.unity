@@ -529,9 +529,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_CustomReticle: {fileID: 0}
-  m_TeleportationProvider: {fileID: 1158162612239019374, guid: a348c834256ebe84986d8eaa20522603,
-    type: 3}
-  m_MatchOrientation: 0
+  m_TeleportationProvider: {fileID: 0}
+  m_MatchOrientation: 1
   m_TeleportTrigger: 0
 --- !u!65 &984099624
 BoxCollider:
