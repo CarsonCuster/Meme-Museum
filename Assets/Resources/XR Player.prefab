@@ -680,7 +680,7 @@ MonoBehaviour:
   m_PlayHapticsOnHoverExit: 0
   m_HapticHoverExitIntensity: 0
   m_HapticHoverExitDuration: 0
-  m_LineType: 0
+  m_LineType: 1
   m_MaxRaycastDistance: 30
   m_ReferenceFrame: {fileID: 0}
   m_Velocity: 16
@@ -811,7 +811,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5561284582889271642}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e988983f96fe1dd48800bcdfc82f23e9, type: 3}
   m_Name: 
@@ -970,7 +970,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6622868892245961608}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 1.8, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 8831205463260852251}
@@ -1088,7 +1088,7 @@ GameObject:
   - component: {fileID: 5276043245986629228}
   - component: {fileID: 1158162612239019374}
   - component: {fileID: 6696370078323686129}
-  - component: {fileID: 5480686181963347687}
+  - component: {fileID: -9184671072635442815}
   m_Layer: 0
   m_Name: XR Player
   m_TagString: Untagged
@@ -1142,11 +1142,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _realtime: {fileID: 0}
-  _sceneViewUUID: 
+  _sceneViewUUID: 98432167d3924a45a604fa0217d2f7f0
   _sceneViewOwnedByCreatingClient: 1
   _sceneViewPreventOwnershipTakeover: 0
   _sceneViewDestroyWhenOwnerOrLastClientLeaves: 1
-  _isRootPrefabView: 1
+  _isRootPrefabView: 0
   _components:
   - componentID: 1
     component: {fileID: 4191702990152634558}
@@ -1258,7 +1258,7 @@ MonoBehaviour:
   m_TurnAmount: 45
   m_DebounceTime: 0.5
   m_DeadZone: 0.75
---- !u!114 &5480686181963347687
+--- !u!114 &-9184671072635442815
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1267,15 +1267,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 8449112178999269244}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e8c01ecdcedd6944d9d1e64ddc756e76, type: 3}
+  m_Script: {fileID: 11500000, guid: 499372fe11ee5814297d599636be01c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_ActivationButtons: 03000000
-  m_DeactivationButtons: 
-  m_LeftBaseController: {fileID: 2542456804494970652}
-  m_LeftTeleportController: {fileID: 2542456804494970652}
-  m_RightBaseController: {fileID: 5561284582889271642}
-  m_RightTeleportController: {fileID: 5561284582889271642}
 --- !u!1 &9038846221033605362
 GameObject:
   m_ObjectHideFlags: 0
