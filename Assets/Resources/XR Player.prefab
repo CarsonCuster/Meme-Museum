@@ -53,7 +53,7 @@ MonoBehaviour:
   m_EnableInputActions: 1
   m_PoseProvider: {fileID: 0}
   m_ControllerNode: 4
-  m_SelectUsage: 3
+  m_SelectUsage: 2
   m_ActivateUsage: 2
   m_UIPressUsage: 2
   m_AxisToPressThreshold: 0.1
@@ -1085,6 +1085,10 @@ GameObject:
   - component: {fileID: 349771549433403862}
   - component: {fileID: 4191702990152634558}
   - component: {fileID: 7128078685000366830}
+  - component: {fileID: 5276043245986629228}
+  - component: {fileID: 1158162612239019374}
+  - component: {fileID: 6696370078323686129}
+  - component: {fileID: 5480686181963347687}
   m_Layer: 0
   m_Name: XR Player
   m_TagString: Untagged
@@ -1100,7 +1104,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8449112178999269244}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -99.4, y: 31.31, z: -62.65}
+  m_LocalPosition: {x: -98.61713, y: 31.296295, z: -59.6472}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 436440868951079693}
@@ -1207,6 +1211,71 @@ MonoBehaviour:
   _syncRotation: 1
   _syncScale: 1
   _extrapolation: 0
+--- !u!114 &5276043245986629228
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8449112178999269244}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03a5df2202a8b96488c744be3bd0c33e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Timeout: 10
+  m_XRRig: {fileID: 3751037706860510049}
+--- !u!114 &1158162612239019374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8449112178999269244}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01f69dc1cb084aa42b2f2f8cd87bc770, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_System: {fileID: 5276043245986629228}
+--- !u!114 &6696370078323686129
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8449112178999269244}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc4f2c0214c9b494fa7eb5b8b2c02885, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_System: {fileID: 5276043245986629228}
+  m_TurnUsage: 0
+  m_Controllers:
+  - {fileID: 6679047521965052080}
+  - {fileID: 5173151197284315736}
+  m_TurnAmount: 45
+  m_DebounceTime: 0.5
+  m_DeadZone: 0.75
+--- !u!114 &5480686181963347687
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8449112178999269244}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8c01ecdcedd6944d9d1e64ddc756e76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ActivationButtons: 03000000
+  m_DeactivationButtons: 
+  m_LeftBaseController: {fileID: 2542456804494970652}
+  m_LeftTeleportController: {fileID: 2542456804494970652}
+  m_RightBaseController: {fileID: 5561284582889271642}
+  m_RightTeleportController: {fileID: 5561284582889271642}
 --- !u!1 &9038846221033605362
 GameObject:
   m_ObjectHideFlags: 0
