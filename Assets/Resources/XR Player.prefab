@@ -1144,7 +1144,7 @@ MonoBehaviour:
   _realtime: {fileID: 0}
   _sceneViewUUID: 
   _sceneViewOwnedByCreatingClient: 1
-  _sceneViewPreventOwnershipTakeover: 0
+  _sceneViewPreventOwnershipTakeover: 1
   _sceneViewDestroyWhenOwnerOrLastClientLeaves: 1
   _isRootPrefabView: 1
   _components:
