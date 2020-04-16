@@ -9,8 +9,10 @@ namespace UnityEngine.XR.Interaction.Toolkit
 public class teleportationAssigner : MonoBehaviour
 {
     // Start is called before the first frame update
-    void Start()
+    IEnumerator Start()
     {
+        yield return null;
+        yield return null;
         foreach(TeleportationArea ta in GameObject.FindObjectsOfType<TeleportationArea>())
         {
             ta.teleportationProvider = GetComponent<TeleportationProvider>();
