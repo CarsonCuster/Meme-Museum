@@ -555,6 +555,7 @@ GameObject:
   - component: {fileID: 219246171}
   - component: {fileID: 219246170}
   - component: {fileID: 219246173}
+  - component: {fileID: 219246174}
   m_Layer: 0
   m_Name: Button
   m_TagString: Untagged
@@ -652,6 +653,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 126
   m_CollisionDetection: 0
+--- !u!114 &219246174
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 219246168}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12563305f28154b4c9c29a0ed80a554d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  screen: {fileID: 442033126}
 --- !u!1 &299479291
 GameObject:
   m_ObjectHideFlags: 0
@@ -2335,7 +2349,7 @@ VideoPlayer:
   - 1
   m_Url: 
   m_EnabledAudioTracks: 01
-  m_DirectAudioMutes: 01
+  m_DirectAudioMutes: 00
   m_ControlledAudioTrackCount: 1
   m_PlayOnAwake: 1
   m_SkipOnDrop: 1
@@ -2510,6 +2524,7 @@ GameObject:
   - component: {fileID: 1579556898}
   - component: {fileID: 1579556897}
   - component: {fileID: 1579556900}
+  - component: {fileID: 1579556901}
   m_Layer: 0
   m_Name: Button
   m_TagString: Untagged
@@ -2607,6 +2622,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 126
   m_CollisionDetection: 0
+--- !u!114 &1579556901
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1579556895}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12563305f28154b4c9c29a0ed80a554d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  screen: {fileID: 2115393571}
 --- !u!1 &1600935944
 GameObject:
   m_ObjectHideFlags: 0
@@ -2620,6 +2648,7 @@ GameObject:
   - component: {fileID: 1600935946}
   - component: {fileID: 1600935945}
   - component: {fileID: 1600935949}
+  - component: {fileID: 1600935950}
   m_Layer: 0
   m_Name: Button (1)
   m_TagString: Untagged
@@ -2717,6 +2746,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 126
   m_CollisionDetection: 0
+--- !u!114 &1600935950
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1600935944}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12563305f28154b4c9c29a0ed80a554d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  screen: {fileID: 1468956858}
 --- !u!1 &1667633832
 GameObject:
   m_ObjectHideFlags: 0
