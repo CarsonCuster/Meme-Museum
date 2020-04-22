@@ -14,5 +14,5 @@ Carson Custer, Alex Musick and Morgan Davis. IMM215 Project for Hunter Dyar.
  - Normcore.io Multiplayer Package. Really useful, simple multiplayer
    set-up  with real- time scaling. : [https://normcore.io/](https://normcore.io/)
    
- - All memes used from knowyourmeme.com 
+ - All memes and meme descriptions from knowyourmeme.com 
 
